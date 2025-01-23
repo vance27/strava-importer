@@ -1,11 +1,8 @@
 {
   "name": "strava-importer",
-  "version": "0.0.1",
-  "main": "main.ts",
-  "scripts": {
-    "start": "node ./src/main.ts"
-  },
+  "packageManager": "yarn@4.6.0",
   "dependencies": {
-    "dotenv": "^16.4.7"
+    "dotenv": "^16.4.7",
+    "strava-v3": "^2.2.1"
   }
 }
