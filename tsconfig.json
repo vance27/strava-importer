@@ -1,5 +1,12 @@
 {
-  "compilerOptions": {
-    "rootDir": "src"
-  }
+    "compilerOptions": {
+        "rootDir": "src",
+        "outDir": "dist",
+        "moduleResolution": "node",
+        "module": "ES2022",
+        "target": "ES2022",
+        "esModuleInterop": true
+    },
+    "include": ["./src/**/*.ts"],
+    "exclude": ["node_modules"]
 }
