@@ -1,0 +1,7 @@
+{
+  "name": "strava-importer",
+  "version": "0.0.1",
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
